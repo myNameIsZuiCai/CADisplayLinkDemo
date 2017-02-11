@@ -15,6 +15,7 @@
 		7E2D01061E339ECE0080540D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D01041E339ECE0080540D /* LaunchScreen.storyboard */; };
 		7E2D01111E339ECE0080540D /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D01101E339ECE0080540D /* ______Tests.m */; };
 		7E2D011C1E339ECE0080540D /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D011B1E339ECE0080540D /* ______UITests.m */; };
+		7E2D012B1E339F7F0080540D /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D012A1E339F7F0080540D /* AnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7E2D01171E339ECE0080540D /* 定时器的选择UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "定时器的选择UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2D011B1E339ECE0080540D /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		7E2D011D1E339ECF0080540D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2D01291E339F7F0080540D /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		7E2D012A1E339F7F0080540D /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7E2D01041E339ECE0080540D /* LaunchScreen.storyboard */,
 				7E2D01071E339ECE0080540D /* Info.plist */,
 				7E2D00F61E339ECE0080540D /* Supporting Files */,
+				7E2D01291E339F7F0080540D /* AnimationView.h */,
+				7E2D012A1E339F7F0080540D /* AnimationView.m */,
 			);
 			path = "定时器的选择";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2D00FE1E339ECE0080540D /* ViewController.m in Sources */,
+				7E2D012B1E339F7F0080540D /* AnimationView.m in Sources */,
 				7E2D00FB1E339ECE0080540D /* AppDelegate.m in Sources */,
 				7E2D00F81E339ECE0080540D /* main.m in Sources */,
 			);
